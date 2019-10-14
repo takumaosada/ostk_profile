@@ -1,6 +1,11 @@
-# ostk_profile
+# Profile Site for Takuma Osada 
 
-## Project setup
+## Detail for Takuma Osada
+Please check: https://github.com/takumaosada/profile
+
+## Installation & Commands
+
+### Setup packages
 ```
 npm install
 ```
@@ -20,6 +25,16 @@ npm run build
 npm run lint
 ```
 
+### Initialize Firebase
+```
+firebase init
+```
+
+### Deploy
+after `npm run build` successfully passed, run 
+```
+firebase deploy
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# ostk_profile
