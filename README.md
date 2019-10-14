@@ -1,6 +1,8 @@
-# ostk_profile
+# Profile Site for Takuma Osada 
 
-## Project setup
+## Installation - Project setup
+
+### Setup packages
 ```
 npm install
 ```
@@ -22,4 +24,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# ostk_profile
+
+## Detail for Takuma Osada
+Please check: https://github.com/takumaosada/profile
