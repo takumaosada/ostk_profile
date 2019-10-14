@@ -67,9 +67,6 @@
               <h5>INTERESETED IN</h5>
               <ul class="mb-2">
                 <li class="rounded-circle px-3 pt-3">
-                  <i class="devicon-swift-plain lang-icon"></i>
-                </li>
-                <li class="rounded-circle px-3 pt-3">
                   firebase
                 </li>
                 <li class="rounded-circle px-3 pt-3">
@@ -77,6 +74,19 @@
                 </li>
                 <li class="rounded-circle px-3 pt-3">
                   <i class="devicon-android-plain-wordmark lang-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 p-0 col-sm-5">
+            <div class="py-1">
+              <h5>LOVE</h5>
+              <ul class="mb-2">
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-swift-plain lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-apple-original lang-icon"></i>
                 </li>
               </ul>
             </div>
