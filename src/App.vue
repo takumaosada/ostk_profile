@@ -8,35 +8,51 @@
     <router-view/>
     <div class="container mt-5">
       <ul class="list-inline mb-5">
-        <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks" aria-label="Facebook">
-            <custom-icon name="facebook" base-class="custom-icon"></custom-icon>
-          </a>
-        </li>
-        <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://twitter.com/ostk0069" aria-label="Twitter">
-            <custom-icon name="twitter" base-class="custom-icon"></custom-icon>
-          </a>
-        </li>
-        <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://github.com/takumaosada" aria-label="GitHub">
-            <custom-icon name="github" base-class="custom-icon"></custom-icon>
-          </a>
-        </li>
-        <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://www.wantedly.com/users/31623094" aria-label="Wantedly">
-            <custom-icon name="message-circle" base-class="custom-icon"></custom-icon>
-          </a>
-        </li>
-        <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://qiita.com/ostk0069" aria-label="Qiita">
-            <custom-icon name="book-open" base-class="custom-icon"></custom-icon>
+        <li v-for="(icon, index) in icons" :key="index" class="rounded-circle p-3">
+          <a :href="icon.url" :aria-label="icon.label">
+            <feather :type="icon.icon" stroke="black"></feather>
           </a>
         </li>
       </ul>
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        icons: [
+          {
+            'url': 'https://www.facebook.com/takuma.osada.10?ref=bookmarks',
+            'label': 'facebook',
+            'icon': 'facebook'
+          },
+          {
+            'url': 'https://twitter.com/ostk0069',
+            'label': 'twitter',
+            'icon': 'twitter'
+          },
+          {
+            'url': 'https://github.com/takumaosada',
+            'label': 'github',
+            'icon': 'github'
+          },
+          {
+            'url': 'https://www.wantedly.com/users/31623094',
+            'label': 'wantedly',
+            'icon': 'user-plus'
+          },
+          {
+            'url': 'https://qiita.com/ostk0069',
+            'label': 'qiita',
+            'icon': 'pen-tool'
+          }
+        ]
+      };
+    }
+  };
+</script>
 
 <style>
 #app {
