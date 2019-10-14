@@ -9,7 +9,6 @@
         <em class="license">{{ msg }}</em>
       </h5>
     </div>
-
     <main class="main bg-info shadow-large rounded">
       <h3>PROFILE</h3>
       <div class="container-fluid py-3">
@@ -18,29 +17,13 @@
             <img class="rounded img-fluid" src="../assets/blamtaku.jpg" alt="blamtaku">
           </div>
           <div class="col-12 col-sm-7">
-            <div class="text-left pt-3 pt-sm-0">
-              <p>
-                #名前 長田 卓馬
-                <br><br>
-                #大学 東京理科大学経営学部ビジネスエコノミクス学科(２１年卒)
-                <br><br>
-                #研究 データ分析(安藤ゼミ)
-                <br><br>
-                #何してる Webサービス/アプリエンジニアになるため趣味で開発・インターンとかしてます
-                <br><br>
-                #最終的な理想のエンジニア像 サービス志向が強いのでPMやエンジニアであっても意志決定をする立場でありたいと考えています
-                <br><br>
-                #今後やること アプリ開発
-                <br><br>
-                #好きなこと UIを見つめる 新しい言語に触れる 新規事業  Apple製品開封
-                <br><br>
-                #嫌いなこと 大人数の飲み会 急なUIの変更
-                <br><br>
-                #趣味 ロボットが戦う映画・アニメ ゲーム(実況) 美味しいものを食べる
-                <br><br>
-                (＊2019/03時点)
-              </p>
-            </div>
+            <ul class="text-left">
+              <li v-for="(info, index) in common_data" v-bind:key="index" class="m-0 container-fluid p-0">
+                <div class="text-left pt-3 pb-3 pt-sm-0">
+                  #{{ info.option }} {{ info.detail }}
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -55,6 +38,48 @@ export default {
     return {
       msg: 'iOS Engineer',
       baseClass: 'v-icon',
+      common_data: [
+        {
+          'option': '名前',
+          'detail': '長田 卓馬'
+        },
+        {
+          'option': '大学',
+          'detail': '東京理科大学経営学部ビジネスエコノミクス学科(21年卒)'
+        },
+        {
+          'option': '研究',
+          'detail': 'データ分析(安藤研究室)'
+        },
+        {
+          'option': '何してる',
+          'detail': 'Nativeエンジニアになるため趣味・インターンとかしてます'
+        },
+        {
+          'option': '最終的な理想のエンジニア像',
+          'detail': 'サービス志向が強いのでPMやエンジニアであっても意志決定をする立場でありたいと考えています'
+        },
+        {
+          'option': '今後やること',
+          'detail': 'アプリ開発全般・新しい技術のキャッチアップ'
+        },
+        {
+          'option': '好きなこと',
+          'detail': 'アプリ開発　UI リファクタリング'
+        },
+        {
+          'option': '嫌いなこと',
+          'detail': 'プロジェクトコードが汚くなっていくこと'
+        },
+        {
+          'option': '趣味',
+          'detail': '映画、Apple製品'
+        },
+        {
+          'option': 'マイブーム',
+          'detail': 'ボドゲ'
+        }
+      ]
     }
   },
   methods: {
