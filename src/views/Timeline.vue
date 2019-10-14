@@ -28,8 +28,29 @@ export default {
       baseClass: 'v-icon',
       timeline_data: [
         {
-          'title': 'JX通信社でiOSインターン',
-          'description': ' News系アプリの開発',
+          'title': '株式会社ミクシィでiOSエンジニアインターン',
+          'description': 'Swiftでカラオケ配信アプリの開発',
+          'url': 'https://apps.apple.com/jp/app/karasta-%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E5%8B%95%E7%94%BB%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%82%A2%E3%83%97%E3%83%AA/id1381312501',
+          'yearStart': '`19/09',
+          'yearEnd': '19/10'
+        },
+        {
+          'title': 'Retty株式会社でiOSエンジニアインターン',
+          'description': 'iOS13から使えるSiriKit Extensionの実装',
+          'url': 'https://apps.apple.com/jp/app/retty-%E3%82%B0%E3%83%AB%E3%83%A1%E3%81%AE%E5%AE%9F%E5%90%8D%E5%8F%A3%E3%82%B3%E3%83%9F%E3%82%A2%E3%83%97%E3%83%AA-%E3%81%8A%E5%BA%97%E6%A4%9C%E7%B4%A2-%E3%83%8D%E3%83%83%E3%83%88%E4%BA%88%E7%B4%84/id473919569',
+          'yearStart': '`19/09',
+          'yearEnd': '19/09'
+        },
+        {
+          'title': '株式会社サイバーエージェントでAndroid育成インターン',
+          'description': 'AndroidでQRコードを用いたSNSアプリの開発',
+          'url': 'https://www.cyberagent.co.jp/careers/students/event/detail/id=23250',
+          'yearStart': '`19/08',
+          'yearEnd': '19/08'
+        },
+        {
+          'title': 'JX通信社でiOSエンジニアインターン',
+          'description': 'News系アプリの開発',
           'url': 'https://newsdigest.jp/',
           'yearStart': '`19/02',
           'yearEnd': ''
