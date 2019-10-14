@@ -9,27 +9,27 @@
     <div class="container mt-5">
       <ul class="list-inline mb-5">
         <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks">
+          <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks" aria-label="Facebook">
             <custom-icon name="facebook" base-class="custom-icon"></custom-icon>
           </a>
         </li>
         <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://twitter.com/ostk0069">
+          <a class="text-white" href="https://twitter.com/ostk0069" aria-label="Twitter">
             <custom-icon name="twitter" base-class="custom-icon"></custom-icon>
           </a>
         </li>
         <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://github.com/takumaosada">
+          <a class="text-white" href="https://github.com/takumaosada" aria-label="GitHub">
             <custom-icon name="github" base-class="custom-icon"></custom-icon>
           </a>
         </li>
         <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://www.wantedly.com/users/31623094">
+          <a class="text-white" href="https://www.wantedly.com/users/31623094" aria-label="Wantedly">
             <custom-icon name="message-circle" base-class="custom-icon"></custom-icon>
           </a>
         </li>
         <li class="bg-dark rounded-circle p-3 mt-3">
-          <a class="text-white" href="https://qiita.com/ostk0069">
+          <a class="text-white" href="https://qiita.com/ostk0069" aria-label="Qiita">
             <custom-icon name="book-open" base-class="custom-icon"></custom-icon>
           </a>
         </li>

@@ -15,7 +15,7 @@
       <div class="container-fluid py-3">
         <div class="row">
           <div class="col-12 col-sm-5">
-            <img class="rounded img-fluid" src="../assets/blamtaku.png">
+            <img class="rounded img-fluid" src="../assets/blamtaku.png" alt="blamtaku">
           </div>
           <div class="col-12 col-sm-7">
             <div class="text-left pt-3 pt-sm-0">
