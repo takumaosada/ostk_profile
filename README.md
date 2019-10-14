@@ -11,6 +11,7 @@ Please check: https://github.com/takumaosada/profile
 ```
 npm install
 ```
+Please install `npm` command if you are not ready for this.
 
 ### Compiles and hot-reloads for development
 ```
@@ -37,6 +38,9 @@ after `npm run build` successfully passed, run
 ```
 firebase deploy
 ```
+
+Also, as you can see Github Actions Tab in this repository,  
+it automatically try to deploy with Firebase Hosting when pull request successfully merged.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
