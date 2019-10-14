@@ -26,4 +26,4 @@ jobs:
         npm run build
     - name: deploy to Firebase Hosting
       run: |
-        firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
+        node_modules/.bin/firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT }} --token ${{ secrets.FIREBASE_TOKEN }}
