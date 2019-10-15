@@ -41,7 +41,8 @@ firebase deploy
 ```
 
 Also, as you can see Github Actions Tab in this repository,  
-it automatically try to deploy with Firebase Hosting when pull request successfully merged.
+it automatically try to deploy with Firebase Hosting when pull request successfully merged.  
+You can check [here](https://github.com/takumaosada/ostk_profile/blob/master/.github/workflows/deploy.yml) for more detail.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
